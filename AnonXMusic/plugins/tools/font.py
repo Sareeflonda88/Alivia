@@ -43,5 +43,4 @@ def insert_name(client, message):
     mid_point = len(font) // 2
     new_text = font[:mid_point] + name + font[mid_point:]
 
-    # Send the modified text back
-    message.reply("new_text")
+    
